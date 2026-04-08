@@ -17,6 +17,16 @@
   }
 }
 
+.invisible {
+  font-size: 10px;
+  opacity: 0.05;
+}
+
+.hidden-link {
+  color: var(--text-h);
+  text-decoration: none;
+}
+
 .hero {
   position: relative;
 
