@@ -2,10 +2,11 @@ import { HashRouter, NavLink, Route, Routes } from 'react-router-dom'
 import './App.css'
 import { Home } from './pages/Home'
 import { Flappy } from './pages/Flappy'
-import { NiceTry } from './pages/NiceTry'
+import { Head } from './pages/Head'
 import { Ropemakers } from './pages/Ropemakers'
 import { Invalid } from './pages/Invalid'
-import { Anglesey } from './pages/Anglesey'
+import { Bsky } from './pages/Bsky'
+import { Boats } from './pages/Boats'
 
 function App() {
 
@@ -14,8 +15,9 @@ function App() {
         <HashRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/nicetry" element={<NiceTry />} />
-          <Route path="/anglesey" element={<Anglesey />} />
+          <Route path="/nicetry" element={<Boats />} />
+          <Route path="/bronze" element={<Head />} />
+          <Route path="/anglesey" element={<Bsky />} />
           <Route path="/bandstand" element={<Ropemakers />} />
           <Route path="/mudlark" element={<Flappy />} />
           <Route path="/*" element={<Invalid/>} />

@@ -16,6 +16,6 @@ export function Home() {
                 onClick={() => navigate(code)}>Submit
             </button>
         </label>
-        <p class="invisible">Find me on the water, between Nimue and Mogridge</p>
+        <p class="invisible">Cu + Sn</p>
     </>
 }
