@@ -9,6 +9,10 @@ import { Bsky } from './pages/Bsky'
 import { Boats } from './pages/Boats'
 import { Quiz } from './pages/Quiz'
 
+function Language() {
+  return <h1>Watch your language.</h1>
+}
+
 function App() {
 
   return (
@@ -22,6 +26,9 @@ function App() {
           <Route path="/bandstand" element={<Ropemakers />} />
           <Route path="/mudlark" element={<Flappy />} />
           <Route path="/trivia" element={<Quiz />} />
+          <Route path="/fuck" element={<Language />} />
+          <Route path="/shit" element={<Language />} />
+          <Route path="/cunt" element={<Language />} />
           <Route path="/*" element={<Invalid/>} />
         </Routes>
         <NavLink to="/">Back to home</NavLink>
