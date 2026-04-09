@@ -7,6 +7,7 @@ import { Ropemakers } from './pages/Ropemakers'
 import { Invalid } from './pages/Invalid'
 import { Bsky } from './pages/Bsky'
 import { Boats } from './pages/Boats'
+import { Quiz } from './pages/Quiz'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/anglesey" element={<Bsky />} />
           <Route path="/bandstand" element={<Ropemakers />} />
           <Route path="/mudlark" element={<Flappy />} />
+          <Route path="/trivia" element={<Quiz />} />
           <Route path="/*" element={<Invalid/>} />
         </Routes>
         <NavLink to="/">Back to home</NavLink>

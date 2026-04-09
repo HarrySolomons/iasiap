@@ -17,6 +17,10 @@
   }
 }
 
+li {
+  text-align: start;
+}
+
 .invisible {
   font-size: 10px;
   opacity: 0.05;
